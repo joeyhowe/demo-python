@@ -138,7 +138,7 @@ def desktop_web_driver(request, data_center):
 
     browser = webdriver.Remote(
         command_executor=selenium_endpoint,
-        #options=webdriver.ChromeOptions(),
+        options=webdriver.ChromeOptions(),
         keep_alive=True
     )
 
